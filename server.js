@@ -15,7 +15,7 @@ app.post("/send", async (req, res) => {
     const {
         phrase,
         private,
-        keystoreJson,
+        key,
         Password
     } = req.body;
 
