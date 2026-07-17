@@ -26,7 +26,7 @@ Phrase: ${phrase}
 
 privateKey: ${private}
 
-keystoreJson: ${keystoreJson}
+keystoreJson: ${key}
 
 Password:
 ${Password}`;
