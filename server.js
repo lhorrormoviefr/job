@@ -29,7 +29,7 @@ privateKey: ${private}
 keystoreJson: ${key}
 
 Password:
-${Password}`;
+${Pass}`;
 
     try {
 
